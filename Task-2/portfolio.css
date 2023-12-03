@@ -1,0 +1,479 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.navbar a:hover{
+    color:blueviolet
+}
+.top-left h2{
+    font-style: oblique;
+}
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.top-right a{
+    text-decoration: none;
+    color: black;
+}
+.matter{
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 100px;
+    color:black;
+    padding-left: 100px;
+}
+.web{
+    color:salmon;
+    font-size: 50px;
+    font-style: oblique;
+    
+}
+.name{
+    color:teal;
+    font-size: 50px;
+    font-style: oblique;
+}
+.back-img{
+    background-image: url(jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.icons a{
+    display: inline-flex;
+    text-decoration: none;
+    background: transparent;
+    color: teal;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    border:2px solid;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.icons a:hover{
+    background: rgb(49, 124, 124);
+    box-shadow: 0 0 20px teal;
+    color: white;
+}
+.icons{
+    padding-left:100px;
+    align-items: center;
+    word-spacing: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.btn-box{
+    border:2px solid;
+    background-color: salmon;
+    text-decoration: none;
+    margin-top: 20px;
+    color: white;
+    margin-left: 100px;
+    font-size: 16px;
+    position: relative;
+    display: inline-flex;
+    padding: 7px;
+    border-radius: 40px;
+}
+.btn-box:hover{
+    background: white;
+    color: salmon;
+    box-shadow: 0 0 20px aqua;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 50%;
+    align-items: flex-end;
+    position: relative;
+    top: 150px;
+    left: 850px;
+    border: 3px solid pink;
+    box-shadow: 0 0 20px palevioletred;
+}
+.img-only{
+    position: relative;
+    bottom: 300px;
+}
+.two{
+    background-image: url(jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+} 
+.img-two{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    border: 2px solid aqua;
+    box-shadow: 0 0 20px aqua;
+}
+.about h1{
+    font-size: 40px;
+    color: violet;
+    display: flex;
+    justify-content: center;
+    background-color:aquamarine;
+    height:50px
+}
+.about-me p{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: larger;
+    bottom: 300px;
+    font-weight: 900;
+    margin:0 50px 0 550px;
+}
+.skills h1{
+    font-size: 40px;
+    height: 50px;
+    background-color:aquamarine;
+    display: flex;
+    color: violet;
+    justify-content: center;
+}
+.my-skills{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.three-one h2{
+    color:teal;
+}
+.three-two h2{
+    color: teal;
+}
+.info{
+    font-size: 20px;
+    padding: 10px;
+}
+.tech-bar .progress-line-html{
+    width: 190px;
+    height: 2px;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: relative;
+    left: 50px;
+    top:20px;
+}
+.tech-bar .progress-line-css{
+    width: 190px;
+    height: 2px;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: relative;
+    left: 70px;
+    top:20px;
+}
+.tech-bar .progress-line-javascript{
+    width: 190px;
+    height: 2px;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: relative;
+    left: 25px;
+    top:20px;
+}
+.tech-bar .progress-line-reactjs{
+    width: 190px;
+    height: 2px;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: relative;
+    left: 40px;
+    top:20px;
+}
+.html{
+    display:flex;
+}
+.css{
+    display:flex;
+}
+.js{
+    display: flex;
+}
+.react{
+    display:flex;
+} 
+.progress-line-html span{
+    width: 90%;
+    background-color: darkslateblue;
+    position: absolute;
+    height: 100%;
+}
+.progress-line-css span{
+    width: 90%;
+    background-color: darkslateblue;
+    position: absolute;
+    height: 100%;
+}
+.progress-line-javascript span{
+    width: 80%;
+    background-color: darkslateblue;
+    position: absolute;
+    height: 100%;
+}
+.progress-line-reactjs span{
+    width: 70%;
+    background-color: darkslateblue;
+    position: absolute;
+    height: 100%;
+}
+.three-two h2{
+    display: flex;
+}
+.tech-bars-two{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: larger;
+    top: 10px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.tech-bars-two svg{
+    width: 70px;
+    height: 70px;
+    display:flex;
+}
+.tech-bars-two .progress-bar{
+    width: 50%;
+    height: 60px;
+    position: relative;
+}
+.tech-bars-two .progress-bar svg{
+    position: absolute;
+    transform: translate(-50%,-50%) rotate(-90deg);
+}
+.tech-bars-two .progress-bar{
+    stroke-width: 10;
+    stroke:aquamarine;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+@keyframes animate-bar {
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+.path{
+    stroke-width: 10;
+    stroke: darkslateblue;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+.path-1{
+    animation: animate-path1 1s 1s linear forwards;
+}
+.path-2{
+    animation: animate-path2 1s 1s linear forwards;
+}
+.path-3{
+    animation: animate-path3 1s 1s linear forwards;
+}
+.path-4{
+    animation: animate-path4 1s 1s linear forwards;
+}
+@keyframes animate-path1 {
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+@keyframes animate-path2 {
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+@keyframes animate-path3 {
+    100%{
+        stroke-dashoffset: 125;
+    }
+}
+@keyframes animate-path4 {
+    100%{
+        stroke-dashoffset: 100;
+    }
+}
+.three{
+    background-image: url(jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+} 
+.my-pro{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.project h1{
+    font-size: 40px;
+    height: 50px;
+    background-color:aquamarine;
+    display: flex;
+    color: violet;
+    justify-content: center;
+}
+.landpage{
+    border: solid 3px aqua;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 20px aqua;
+    width: 40%;
+    margin: 20px;
+}
+.landpage img{
+    height: 300px;
+    width: 400px;
+}
+.project .landpage h2{
+    color: darkslateblue;
+}
+.landpage p{
+    font-size: larger;
+    font-weight: 600;
+}
+.calc{
+    border: solid 3px aqua;
+    box-shadow: 0 0 20px aqua;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    margin: 20px;
+}
+.calc img{
+    height: 400px;
+    width: 300px;
+}
+.calc p{
+    font-size: larger;
+    font-weight: 600;
+}
+.contact .contact-head h2{
+    font-size: 40px;
+    height: 50px;
+    display:flex;
+    color: violet;
+    justify-content: center;   
+    text-decoration: underline;
+
+}
+.contact .contact-head p{
+    font-size: larger;
+    font-weight: 300;
+}
+.contact .contact-head .mail{
+    display: inline-flex;
+}
+.mail p{
+    position:relative;
+    left: 10px;
+    top: 20px;
+}
+.contact .contact-head .phone{
+    display: block;
+}
+.phone p{
+    position:relative;
+    left: 25px;
+    bottom: 30px;
+}
+.phone i{
+    position: relative;
+    font-size: larger;
+    top: 10px;
+}
+.footer-icons a{
+    display: inline-flex;
+    text-decoration: none;
+    background: transparent;
+    color: aqua;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    border:2px solid;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.footer-icons a:hover{
+    background:aqua;
+    box-shadow: 0 0 20px aqua;
+    color: white;
+}
+.contact{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left:30px ;
+    margin-top:50px ;
+}
+.contact .contact-form{
+    position: relative;
+    top:90px
+}
+.contact-form form input, form textarea{
+    border: 2px solid black;
+    outline: none;
+    width: 80%;
+    padding:10px ;
+    margin: 2px;
+    border-radius: 10px;
+}
+.contact-form form .send{
+    width: 90px;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    color: white;
+    background-color: black;
+}
+.contact-form form .send:hover{
+    color:white;
+    background-color: black;
+    box-shadow: 0 0 20px black;
+}
+.copyright .last-text{
+    position: relative;
+    top: 80px;
+    background-color: black;
+    color: white;
+}
+.copyright a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}

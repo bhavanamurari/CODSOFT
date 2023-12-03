@@ -1,0 +1,80 @@
+div{
+    display: inline-flex;  
+    width: 100%;
+    height: auto;
+}
+.ticket{
+    background-color:rgb(238, 181, 25);
+    border-radius: 10%;
+    width: fit-content;
+    height: fit-content;
+}
+.items{
+    display: flex;
+    flex-direction:row;
+    align-items:center;  
+    justify-content: right;  
+    justify-content:flex-end;
+    gap: 10px;
+}
+#head{
+    width:150px;
+    padding-left:10px ;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.topnav{
+    background-image:linear-gradient(pink,purple);
+}
+.body{
+    font-weight: bold;
+    font-size:50px;
+}
+.main{
+    padding-top: 350px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight:bold;
+    font-size: larger;
+    color:rgb(236, 23, 94);
+    
+    
+}
+.container{
+    /* height:550px;
+    background-image: url(hanny-naibaho-aWXVxy8BSzc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: relative;
+    background-image: url(hanny-naibaho-aWXVxy8BSzc-unsplash.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slide 5s infinite;
+}
+@keyframes slide {
+    0%{
+        background-image: url(hanny-naibaho-aWXVxy8BSzc-unsplash.jpg);
+    }
+    25%{
+        background-image: url(wes-hicks-MEL-jJnm7RQ-unsplash.jpg);
+    }
+    50%{
+        background-image: url(matt-botsford-OKLqGsCT8qs-unsplash.jpg);
+    }
+    75%{
+        background-image: url(music.jpg);
+    }
+    100%{
+        background-image: url(simon-noh-0rmby-3OTeI-unsplash.jpg);
+    }    
+}
+.base{
+    background-image: url(laura-vinck-Hyu76loQLdk-unsplash.jpg);
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    gap: 6px;
+}
